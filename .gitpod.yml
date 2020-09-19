@@ -13,6 +13,10 @@ ports:
   - port: 9000
     onOpen: ignore
 
+vscode:
+  extensions:
+    - felixfbecker.php-debug@1.13.0:WX8Y3EpQk3zgahy41yJtNQ==
+  
 tasks:
   - init: wp-setup-plugin # or wp-setup-theme
     command: apache2ctl start # start Apache server
